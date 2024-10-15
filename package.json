@@ -1,0 +1,15 @@
+{
+  "name": "media-streaming-app",
+  "version": "1.0.0",
+  "description": "Backend of a media streaming application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "backend"
+  ],
+  "author": "Harsh Sharma",
+  "license": "ISC"
+}
