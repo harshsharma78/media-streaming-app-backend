@@ -2,8 +2,10 @@
   "name": "media-streaming-app",
   "version": "1.0.0",
   "description": "Backend of a media streaming application",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +13,11 @@
     "backend"
   ],
   "author": "Harsh Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
